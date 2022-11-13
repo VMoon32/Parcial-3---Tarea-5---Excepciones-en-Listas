@@ -131,25 +131,6 @@ public class LinkedList<T> implements List<T> {
         return node;
     }
 
-    /*@Override
-    public void removeAllWithValue(T data){
-        int index=0;
-
-        Iterator<T> iterator = this.getIterator();
-
-        while (iterator.hasNext())
-        {
-            if(data.equals(iterator.next()))
-            {
-                this.remove(index);
-            }
-            else
-            {
-                index++;
-            }
-        }
-    }*/
-
     @Override
     public int getSize(){
         return size;
